@@ -7,5 +7,5 @@ sato = Human.new("佐藤花子", 20, "映画")
 
 [tanaka, suzuki, sato].each do |human|
   human.say
-  human.think(human.hobby)
+  human.think(:hobby)
 end
